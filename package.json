@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "compatibility-based \"FriendFinder\" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.   You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Txivo/FriendFinder.git"
+  },
+  "author": "Elias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Txivo/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Txivo/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node": "^10.8.0",
+    "npm": "^6.4.0"
+  }
+}
